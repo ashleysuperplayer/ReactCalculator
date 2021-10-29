@@ -1,17 +1,13 @@
 #calculator {
   font-size: 20px;
-  font-family: monospace;
   width: 260px;
   border: 2px solid black;
+  border-radius: 4px;
   background-color: blue;
 }
 
-.outputContainer::after {
-  height: 10px;
-}
-
 .outputContainer {
-  color: black;
+  color: white;
 }
 
 .operandButton {
@@ -20,6 +16,7 @@
 }
 
 .operatorButton {
+  font-family: monospace;
   width: 20%;
   background-color: yellow;
 }

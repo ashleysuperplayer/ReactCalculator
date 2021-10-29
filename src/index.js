@@ -110,7 +110,7 @@ class Calculator extends React.Component {
 
   operationHandler(purpose) {
     if(isNumeric(purpose)) {
-      if(this.state.currentNumber > 1000000000000000) {
+      if(this.state.currentNumber > 999999999999999) {
         return true;
       }
       else {
